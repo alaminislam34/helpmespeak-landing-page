@@ -55,10 +55,7 @@ function Footer() {
           © 2025 HelpMeSpeak, Inc. All rights reserved.
         </p>
         <div className="flex flex-row gap-8 mt-6 md:mt-8 lg:mt-11">
-          <a
-            target="_blank"
-            href="https://www.facebook.com/share/1Jo9bH967Z/?mibextid=wwXIfr"
-          >
+          <a target="_blank">
             <Image
               src={"/icons/facebook.jpg"}
               height={60}
@@ -67,10 +64,7 @@ function Footer() {
               className="h-[34px] md:h-[34px] lg:h-10 w-[34px] md:w-[34px] lg:w-10 object-cover"
             />
           </a>
-          <a
-            target="_blank"
-            href="https://www.instagram.com/task_mama?igsh=NW5pcGU4aGlkNTkz&utm_source=qr"
-          >
+          <a target="_blank">
             <Image
               src={"/icons/instagram.jpg"}
               height={60}
@@ -79,10 +73,7 @@ function Footer() {
               className="h-[34px] md:h-[34px] lg:h-10 w-[34px] md:w-[34px] lg:w-10 object-cover"
             />
           </a>
-          <a
-            target="_blank"
-            href="https://www.tiktok.com/@taskmama?_t=ZP-90KpvBisqad&_r=1"
-          >
+          <a target="_blank">
             <Image
               src={"/icons/tiktok.jpg"}
               height={60}
