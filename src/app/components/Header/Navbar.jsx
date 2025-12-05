@@ -85,7 +85,10 @@ function Navbar() {
 
   return (
     <div>
-      <nav id="home" className="grid grid-cols-2 lg:grid-cols-3 items-center py-4 max-w-[1440px] mx-auto w-11/12">
+      <nav
+        id="home"
+        className="grid grid-cols-2 lg:grid-cols-3 items-center py-4 max-w-[1440px] mx-auto w-11/12"
+      >
         <div className="flex items-center justify-start">
           <Link href={"#home"}>
             <div className="flex flex-col items-center justify-center gap-2">
@@ -96,7 +99,9 @@ function Navbar() {
                 alt="Logo image"
                 className="w-[50px] md:w-[70px] h-auto"
               />
-              <h1 className="text-dark text-xs sm:text-sm md:text-lg font-bold font-poppins">HelpMeSpeak</h1>
+              <h1 className="text-dark text-xs sm:text-sm md:text-lg font-bold font-poppins">
+                HelpMeSpeak
+              </h1>
             </div>
           </Link>
         </div>
@@ -139,13 +144,13 @@ function Navbar() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your mail..."
-                className="py-[9px] px-4 pl-[35px] focus:ring-2 focus:ring-primary focus:outline-none rounded-xl bg-secondary font-normal w-52"
+                className="py-[9px] px-4 pl-[35px] placeholder:text-sm focus:ring-2 focus:ring-primary focus:outline-none rounded-xl bg-secondary font-normal w-52"
               />
             </div>
             <button
               disabled={loadingEmail}
               onClick={handleSendEmail}
-              className="py-[9px] px-5 rounded-xl bg-primary cursor-pointer text-white border border-primary hover:bg-primary/90 duration-300 font-semibold disabled:opacity-50"
+              className="py-[9px] px-5 rounded-xl bg-primary cursor-pointer text-white border border-primary hover:bg-primary/90 duration-300 disabled:opacity-50"
             >
               {loadingEmail ? "Sending..." : "Get Download Link"}
             </button>
@@ -241,13 +246,13 @@ function Navbar() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your mail..."
-                className="w-full py-3 px-4 pl-[35px] focus:ring-2 focus:ring-primary focus:outline-none rounded-xl bg-secondary text-sm font-normal"
+                className="w-full py-3 px-8 pl-[35px] placeholder:text-sm focus:ring-2 focus:ring-primary focus:outline-none rounded-xl bg-secondary text-sm font-normal"
               />
             </div>
             <button
               disabled={loadingEmail}
               onClick={handleSendEmail}
-              className="w-full py-3 px-4 rounded-xl bg-primary text-white text-sm border border-primary hover:bg-primary/90 duration-300 font-semibold disabled:opacity-50"
+              className="w-full py-3 px-4 rounded-xl bg-primary text-white text-sm border border-primary hover:bg-primary/90 duration-300 disabled:opacity-50"
             >
               {loadingEmail ? "Sending..." : "Get Download Link"}
             </button>

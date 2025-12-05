@@ -6,9 +6,9 @@ import React from "react";
 function HeroSection() {
   return (
     <div className="py-4 ">
-      <div className="py-12 lg:py-14 relative">
+      <div className="py-6 lg:py-8 relative">
         {/* heading */}
-        <h1 className="text-[30px] md:text-4xl lg:text-[56px] font-semibold font-lato mx-auto text-center max-w-[850px] mb-7 tracking-wider leading-normal">
+        <h1 className="text-[30px] md:text-4xl lg:text-[56px] font-semibold font-lato mx-auto text-center max-w-[850px] mb-7 tracking-wider ">
           <span className="text-primary">Learn</span> languages <br /> with
           real-time Translations & <span className="text-primary">AI Chat</span>{" "}
           <span className="text-2xl md:text-3xl lg:text-4xl">
@@ -54,7 +54,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="mt-10 lg:mt-12 mx-auto max-w-[920px] h-auto">
+      <div className=" mx-auto max-w-[920px] h-auto">
         <Image
           src={"/images/appImage.png"}
           height={800}
