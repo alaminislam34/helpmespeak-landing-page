@@ -1,0 +1,29 @@
+@font-face {
+  font-family: roboto;
+  src: url('../../public/fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../../public/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: poppins;
+  src: url('../../public/fonts/Poppins-Regular.ttf');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-secondary: #D5F3FF;
+  --color-primary: #048BC2;
+  --font-roboto: roboto, sans-serif;
+  --font-lato: Lato, sans-serif;
+  --font-poppins: poppins, sans-serif;
+  --color-dark: #3A4E77;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
